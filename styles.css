@@ -13,13 +13,13 @@ body {
     background-color: #88AB8E;
     position: fixed;
     left: 0;
-    top: 7%;
+    top: 180px;
     bottom: 0;
-    width: 25%;
+    width: 300px;
     margin: 0;
 }
 
-#sidebar .title {
+.title{
     background-color: #88AB8E;
     font-size: 50px;
     font-weight: 400;
@@ -27,21 +27,24 @@ body {
     color:#F2F1EB;
 }
 
+
+.bold {
+    background-color: #88AB8E;
+    font-weight: 600;
+}
+
 #header {
+    background-color: #EEE7DA;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 93%;
-    border-bottom: 4px double #88AB8E;
+    bottom: 750px;
+    border-bottom: 1px solid #88AB8E;
 }
 
 .search {
+    background-color: #EEE7DA;
     text-align: right;
     padding: 4px;
-}
-
-.bold {
-    font-weight: 600;
-    background-color: #88AB8E;
 }
